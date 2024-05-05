@@ -20,13 +20,13 @@ class LinkedList {
     }
 
     public function setPrimaryNode() {
-        throw new NotImplementedExecption();
+        throw new NotImplementedException();
     }
     public function traverse() {
-        throw new NotImplementedExecption();
+        throw new NotImplementedException();
     }
 
     public function add() {
-        throw new NotImplementedExecption();
+        throw new NotImplementedException();
     }
 }
