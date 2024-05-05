@@ -5,6 +5,7 @@ class NotImplementedException extends BadMethodCallException
 
 class Node {
     private $data;
+    private $next;
 
     public function __construct($data) {
         $this->data = $data;
@@ -19,14 +20,18 @@ class LinkedList {
         $this->head = null;
     }
 
-    public function setPrimaryNode() {
+    public function setPrimaryNode() : void {
         throw new NotImplementedException();
     }
-    public function traverse() {
+    public function traverse() : Array {
         throw new NotImplementedException();
     }
 
-    public function add() {
+    public function add() : Node {
+        throw new NotImplementedException();
+    }
+
+    public function reverse() : LinkedList {
         throw new NotImplementedException();
     }
 }
