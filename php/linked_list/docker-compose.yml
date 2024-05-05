@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  app:
+    image: nmible/assessments
+    build:
+      context: .
+    volumes:
+      - ".:/var/app"
+      - "/var/app/vendor"
