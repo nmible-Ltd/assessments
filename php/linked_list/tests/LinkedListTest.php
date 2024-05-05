@@ -11,8 +11,8 @@ final class LinkedListTest extends TestCase
         $list->setPrimaryNode($head);
         $second = new Node("Second");
         $third = new Node("Third");
-        $list.add($second);
-        $list.add($third);
+        $list->add($second);
+        $list->add($third);
         $this->assertSame(["First", "Second", "Third"], $list->traverse);
     }
 }
